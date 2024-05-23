@@ -12,7 +12,6 @@ program.parse();
 
 const [filepath1, filepath2] = program.arguments;
 
-
 const data1 = parseData(filepath1);
 const data2 = parseData(filepath2);
 
