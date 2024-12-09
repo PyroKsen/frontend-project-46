@@ -5,10 +5,11 @@
   "main": "gendiff.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "npx jest colors runInBand bail"
   },
   "jest": {
-    "transform": {}
+    "transform": {},
+    "moduleFileExtensions": ["js", "jsx", "ts", "tsx", "mjs"]
   },
   "author": "",
   "license": "ISC",
